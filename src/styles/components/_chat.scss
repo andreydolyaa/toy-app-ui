@@ -1,0 +1,43 @@
+
+
+.chat-app{
+    min-height:300px;
+    width:50%;
+    background-color: gray;
+    border-radius:5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:5rem auto 5rem auto;
+    .chat-form form{
+        display:flex;
+        justify-content: space-between;
+        input{
+            width:100%;
+            outline: none;
+            padding:.5rem;
+        }
+    }
+    h2{
+        color:white;
+        border-bottom:1px solid white;
+        padding:.8rem;
+    }
+}
+
+.chat-msgs{
+    display: flex;
+    
+    ul{
+        display:flex;
+        flex-direction: column;
+        margin:0;
+        padding:10px;
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+    ul li{
+        list-style: none;
+        color:white;
+    }
+}
